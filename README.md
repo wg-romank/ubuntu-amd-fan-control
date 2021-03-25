@@ -3,6 +3,7 @@
 1. clone `amdgpu-tweakd` (https://github.com/amezin/amdgpu-tweakd) then `sudo python setup.py install` it
 2. create a configuration file (if you have Sapphire Pulse RX 570 you could use one in this repo) then store it somewhere (e.g. `/etc/amdgpu-tweakd`)
 3. create a `.service` file to make sure script is running (see `amdgpu-tweakd.service` for reference) then store it in ` /etc/systemd/system/amdgpu-tweakd.service`
+4. enable service to run at startup `sudo systemctl enable amdgpu-tweakd`
 
 Enjoy a peaceful evening ☕
 
