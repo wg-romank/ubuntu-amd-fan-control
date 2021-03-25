@@ -1,4 +1,4 @@
-# ubuntu-amd-fan-control
+# ubuntu-tf570-pulse-config
 
 1. clone `amdgpu-tweakd` (https://github.com/amezin/amdgpu-tweakd) then `sudo python setup.py install` it
 2. create a configuration file (if you have Sapphire Pulse RX 570 you could use one in this repo) then store it somewhere (e.g. `/etc/amdgpu-tweakd`)
